@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-govern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "mocha": "^10.2.0"
+  }
+}
