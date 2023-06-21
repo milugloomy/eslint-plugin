@@ -25,7 +25,7 @@ module.exports = {
     "govern"
   ],
   "rules": {
-    "govern/ecop-window": ["warn"],
+    "govern/ecop-window": ["error"],
     "govern/get": ["warn", false]
   }
 }

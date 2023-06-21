@@ -1,6 +1,12 @@
 module.exports = {
   meta: {
-    fixable: 'code'
+    type: 'suggestion', // `problem`, `suggestion`, or `layout`
+    docs: {
+      description: 'can not directly use window under ecop environment',
+      category: 'Best Practices',
+      recommended: true
+    },
+    fixable: 'code',
   },
   create(context) {
     const isFix = context.options[0];
